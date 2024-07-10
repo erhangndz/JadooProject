@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JadooProject", "JadooProject\JadooProject.csproj", "{8B1C7B52-EB2C-46AE-82A3-9271D4C2C1B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B1C7B52-EB2C-46AE-82A3-9271D4C2C1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1C7B52-EB2C-46AE-82A3-9271D4C2C1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1C7B52-EB2C-46AE-82A3-9271D4C2C1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1C7B52-EB2C-46AE-82A3-9271D4C2C1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C3DEC5-4513-4E12-A13B-8E411849FA1E}
+	EndGlobalSection
+EndGlobal
