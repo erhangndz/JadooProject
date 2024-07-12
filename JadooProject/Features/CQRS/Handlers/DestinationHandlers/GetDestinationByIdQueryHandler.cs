@@ -1,9 +1,9 @@
 ﻿using JadooProject.DataAccess.Abstract;
 using JadooProject.DataAccess.Entities;
-using JadooProject.Features.CQRS.Queries;
-using JadooProject.Features.CQRS.Results;
+using JadooProject.Features.CQRS.Queries.DestinationQueries;
+using JadooProject.Features.CQRS.Results.DestinationResults;
 
-namespace JadooProject.Features.CQRS.Handlers
+namespace JadooProject.Features.CQRS.Handlers.DestinationHandlers
 {
     public class GetDestinationByIdQueryHandler
     {
@@ -18,16 +18,16 @@ namespace JadooProject.Features.CQRS.Handlers
         public GetDestinationByIdQueryResult Handle(GetDestinationByIdQuery query)
         {
             var value = _repository.GetById(query.Id);
-            
+
             GetDestinationByIdQueryResult result = new GetDestinationByIdQueryResult();
 
             result.Duration = value.Duration;
             result.DestinationId = value.DestinationId;
             result.ImageUrl = value.ImageUrl;
             result.City = value.City;
-            result.Price= value.Price;
+            result.Price = value.Price;
             return result;
-         
+
         }
 
     }
